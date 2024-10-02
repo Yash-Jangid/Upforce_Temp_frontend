@@ -1,0 +1,39 @@
+.container {
+    @apply min-h-screen flex flex-col items-center justify-center bg-gray-100 px-4 md:px-0;
+}
+
+.form-container {
+    @apply w-full max-w-4xl bg-white shadow-md rounded-lg p-6;
+}
+
+.title {
+    @apply text-2xl font-bold text-center mb-6;
+}
+
+.profile-picture {
+    @apply flex justify-center mb-6;
+}
+
+.profile-image {
+    @apply rounded-full w-24 h-24 border-2 border-gray-300;
+}
+
+.form-grid {
+    @apply grid grid-cols-2 gap-4 mb-6;
+}
+
+.input-field {
+    @apply border rounded-lg p-2;
+}
+
+.file-upload {
+    @apply mt-1 block w-full text-sm text-gray-600 file:mr-4 file:py-2 file:px-4 file:border-0 file:text-sm file:bg-gray-50 file:text-gray-700 hover:file:bg-gray-100;
+}
+
+.submit-button {
+    @apply w-full bg-red-500 text-white py-2 rounded-lg;
+}
+
+.back-link {
+    @apply mt-4 text-blue-600 underline;
+}

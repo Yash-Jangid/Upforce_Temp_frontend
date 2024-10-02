@@ -1,0 +1,3 @@
+.gender_options {
+    @apply flex flex-col;
+}
